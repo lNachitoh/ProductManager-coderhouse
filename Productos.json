@@ -1,0 +1,92 @@
+[
+  {
+    "tittle": "prueba1",
+    "description": "pruebaa",
+    "price": 200,
+    "thumnail": "sin imagen",
+    "code": "aacb",
+    "stock": 20,
+    "id": 1
+  },
+  {
+    "tittle": "prueba2",
+    "description": "prueba2",
+    "price": 200,
+    "thumnail": "sin imagen2",
+    "code": "aacb2",
+    "stock": 20,
+    "id": 2
+  },
+  {
+    "tittle": "prueba3",
+    "description": "prueba3",
+    "price": 200,
+    "thumnail": "sin imagen3",
+    "code": "aacb3",
+    "stock": 20,
+    "id": 3
+  },
+  {
+    "tittle": "prueba4",
+    "description": "prueba4",
+    "price": 200,
+    "thumnail": "sin imagen4",
+    "code": "aacb4",
+    "stock": 20,
+    "id": 4
+  },
+  {
+    "tittle": "prueba5",
+    "description": "prueba5",
+    "price": 200,
+    "thumnail": "sin imagen5",
+    "code": "aacb5",
+    "stock": 20,
+    "id": 5
+  },
+  {
+    "tittle": "prueba6",
+    "description": "prueba6",
+    "price": 200,
+    "thumnail": "sin imagen6",
+    "code": "aacb6",
+    "stock": 20,
+    "id": 6
+  },
+  {
+    "tittle": "prueba7",
+    "description": "prueba7",
+    "price": 200,
+    "thumnail": "sin imagen7",
+    "code": "aacb7",
+    "stock": 20,
+    "id": 7
+  },
+  {
+    "tittle": "prueba8",
+    "description": "prueba8",
+    "price": 200,
+    "thumnail": "sin imagen8",
+    "code": "aacb8",
+    "stock": 20,
+    "id": 8
+  },
+  {
+    "tittle": "prueba9",
+    "description": "prueba9",
+    "price": 200,
+    "thumnail": "sin imagen9",
+    "code": "aacb9",
+    "stock": 20,
+    "id": 9
+  },
+  {
+    "tittle": "prueba10",
+    "description": "prueba10",
+    "price": 200,
+    "thumnail": "sin imagen10",
+    "code": "aacb10",
+    "stock": 20,
+    "id": 10
+  }
+]
