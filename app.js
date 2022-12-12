@@ -10,19 +10,30 @@ app.use(express.text())
 
 
 app.listen(PORT, ()=> {
-    console.log(`El servidor esta corriendo en el puerto ${PORT}`)
+    console.log(`El servidor esta corriendo en la direccion: http://localhost:${PORT}`)
 })
 
-app.get ('/products',(req,res)=>{
-    res.json(productManager.getProducts())
+app.get ('/products',async (req,res)=>{
+    let allProducts = await productManager.getAll()
+    const limit = Number(req.query.limit)
+    const products = Object.values(allProducts)
+    if (limit){ 
+        const productosfinal = products.slice(0, limit)
+        res.send(productosfinal)
+    }
+    else {
+        res.send(allProducts)
+    }
+})
+
+app.get ('/products/:pid',async (req,res)=>{
+    const id = Number(req.params.pid)
+    const producto = await productManager.getProductById(id)
+    if (producto === 0){
+        res.sendStatus(404)
+    }else {
+        res.send(producto)
+    }
 })
 
 
-
-app.get ('/products/:pid',(req,res)=>{
-    const responseObject = {}
-    const id = Number(req.params.id)
-    const product = productManager.getProductById(id)
-    responseObject.product = product
-    res.json(responseObject)
-})
